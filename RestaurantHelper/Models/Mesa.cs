@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RestaurantHelper.Models.Enums;
+using System;
 using System.Collections.Generic;
 
 namespace RestaurantHelper.Models;
@@ -7,7 +8,7 @@ public partial class Mesa
 {
     public int Id { get; set; }
 
-    public int Estado { get; set; }
+    public EstadoMesa Estado { get; set; }
 
     public int ComandaActualId { get; set; }
 

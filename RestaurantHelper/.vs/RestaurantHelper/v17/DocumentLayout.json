@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|d:\\proyectos startup\\restauranthelper\\restauranthelper\\restauranthelper\\models\\enums\\menuenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|solutionrelative:models\\enums\\menuenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|d:\\proyectos startup\\restauranthelper\\restauranthelper\\restauranthelper\\models\\restaurantcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|solutionrelative:models\\restaurantcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|d:\\proyectos startup\\restauranthelper\\restauranthelper\\restauranthelper\\models\\enums\\usuarioenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|solutionrelative:models\\enums\\usuarioenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|d:\\proyectos startup\\restauranthelper\\restauranthelper\\restauranthelper\\repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|solutionrelative:repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|d:\\proyectos startup\\restauranthelper\\restauranthelper\\restauranthelper\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|d:\\proyectos startup\\restauranthelper\\restauranthelper\\restauranthelper\\irepository\\igeneralrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|solutionrelative:irepository\\igeneralrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RestaurantContext.cs",
-              "DocumentMoniker": "D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\Models\\RestaurantContext.cs",
-              "RelativeDocumentMoniker": "Models\\RestaurantContext.cs",
-              "ToolTip": "D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\Models\\RestaurantContext.cs",
-              "RelativeToolTip": "Models\\RestaurantContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABAAAAA",
+              "DocumentIndex": 0,
+              "Title": "MenuEnums.cs",
+              "DocumentMoniker": "D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\Models\\Enums\\MenuEnums.cs",
+              "RelativeDocumentMoniker": "Models\\Enums\\MenuEnums.cs",
+              "ToolTip": "D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\Models\\Enums\\MenuEnums.cs",
+              "RelativeToolTip": "Models\\Enums\\MenuEnums.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T20:42:41.618Z",
+              "WhenOpened": "2024-05-14T00:16:11.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioEnums.cs",
+              "DocumentMoniker": "D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\Models\\Enums\\UsuarioEnums.cs",
+              "RelativeDocumentMoniker": "Models\\Enums\\UsuarioEnums.cs",
+              "ToolTip": "D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\Models\\Enums\\UsuarioEnums.cs",
+              "RelativeToolTip": "Models\\Enums\\UsuarioEnums.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T00:08:14.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T00:03:15.628Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-11T20:31:17.045Z",
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\Repository\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\UsuarioRepository.cs",
+              "ToolTip": "D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\Repository\\UsuarioRepository.cs",
+              "RelativeToolTip": "Repository\\UsuarioRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAYwBUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T23:47:12.443Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAARAAAA",
+              "DocumentIndex": 4,
+              "Title": "IGeneralRepository.cs",
+              "DocumentMoniker": "D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\IRepository\\IGeneralRepository.cs",
+              "RelativeDocumentMoniker": "IRepository\\IGeneralRepository.cs",
+              "ToolTip": "D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\IRepository\\IGeneralRepository.cs",
+              "RelativeToolTip": "IRepository\\IGeneralRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T20:31:13.362Z",
+              "WhenOpened": "2024-05-13T23:33:57.553Z",
               "EditorCaption": ""
             }
           ]

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RestaurantHelper.Models.Enums;
+using System;
 using System.Collections.Generic;
 
 namespace RestaurantHelper.Models;
@@ -11,9 +12,9 @@ public partial class Usuario
 
     public string Nombre { get; set; } = null!;
 
-    public int CategoriaId { get; set; }
+    public CategoriaUsuario CategoriaId { get; set; }
 
-    public int Estado { get; set; }
+    public EstadoUsuario Estado { get; set; }
 
     public string Password { get; set; } = null!;
 

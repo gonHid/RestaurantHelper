@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RestaurantHelper.Models.Enums;
+using System;
 using System.Collections.Generic;
 
 namespace RestaurantHelper.Models;
@@ -13,7 +14,7 @@ public partial class Comanda
 
     public int UsuarioId { get; set; }
 
-    public int Estado { get; set; }
+    public EstadoComanda Estado { get; set; }
 
     public string? Observaciones { get; set; }
 
