@@ -5,7 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RestaurantHelper"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="TenDev - control restaurant" Height="582" Width="924" WindowState="Maximized">
+
+    <Grid Name="MainGrid">
+        
+        <TabControl>
+            <TabItem Header="Control Comandas">
+                <Grid Background="#FFE5E5E5">
+                    <ScrollViewer Margin="22,22,164,22">
+                        <WrapPanel x:Name="ContenedorMesas"/>
+                    </ScrollViewer>
+                </Grid>
+
+            </TabItem>
+            <TabItem Header="Administracion">
+                <Grid Background="#FFE5E5E5">
+
+                </Grid>
+            </TabItem>
+        </TabControl>
     </Grid>
 </Window>
