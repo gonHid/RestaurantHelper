@@ -12,7 +12,7 @@
         <TabControl>
             <TabItem Header="Control Comandas">
                 <Grid Background="#FFE5E5E5">
-                    <ScrollViewer Margin="22,22,164,22">
+                    <ScrollViewer Margin="49,22,366,22">
                         <WrapPanel x:Name="ContenedorMesas"/>
                     </ScrollViewer>
                 </Grid>

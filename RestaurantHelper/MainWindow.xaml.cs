@@ -1,4 +1,6 @@
 ﻿using RestaurantHelper.Models;
+using RestaurantHelper.Repository;
+using RestaurantHelper.Services;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -12,16 +14,20 @@ using System.Windows.Shapes;
 
 namespace RestaurantHelper
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+	/// <summary>
+	/// Interaction logic for MainWindow.xaml
+	/// </summary>
+
     public partial class MainWindow : Window
     {
-        public MainWindow()
+		private readonly MesaService mesaService;
+		public MainWindow()
         {
             InitializeComponent();
+			mesaService = new MesaService();
+
 			List<Mesa> mesas = new List<Mesa>();
-			for (int i=0;i<=30;i++)
+			for (int i=0;i<=10;i++)
 			{
 				Mesa mesa = new Mesa();
 				mesa.Id = i;
@@ -32,18 +38,20 @@ namespace RestaurantHelper
 
 		private void GenerarMesas(List<Mesa> mesas)
 		{
+			//List<Mesa> mesas = mesaRepository.GetAll();
 			foreach (var mesa in mesas)
 			{
 				// Crear un nuevo botón
 				Button button = new Button
 				{
 					Content = mesa.Id.ToString(),
-					Width = 400,
-					Height = 300,
+					Width = 300,
+					Height = 280,
 					Margin = new Thickness(10),
 					Name = "Mesa" + mesa.Id.ToString()
 				};
 				button.Click += Button_Click;
+				button.FontSize = 30;
 				// Agregar el botón al contenedor
 				ContenedorMesas.Children.Add(button);
 			}
@@ -51,12 +59,20 @@ namespace RestaurantHelper
 
 		private void Button_Click(object sender, RoutedEventArgs e)
 		{
-			// Esta función se ejecuta cuando se haga clic en cualquier botón generado dinamicamente
-			var button = sender as Button;
-			if (button != null)
+			if (sender is Button button)
 			{
-				MessageBox.Show($"¡Has hecho clic en la mesa {button.Content}!");
-				// Aquí puedes agregar la lógica que desees realizar cuando se hace clic en un botón
+				Mesa mesaSelected = mesaService.GetMesaByID(Convert.ToInt32(button.Content));
+				if (mesaSelected.Id != 0) {
+					MessageBox.Show($"¡Has hecho clic en la mesa {button.Content}!");
+					//ABRIR VENTANA PARA CREAR MODIFICAR O TERMINAR COMANDAS
+					VentanaComanda ventana = new VentanaComanda(mesaSelected);
+					ventana.Show();
+					//Recargar mesas 
+				}
+				else
+				{
+					MessageBox.Show($"¡la mesa {button.Content} no existe!");
+				}
 			}
 		}
 
