@@ -27,7 +27,7 @@ namespace RestaurantHelper
 			mesaService = new MesaService();
 
 			List<Mesa> mesas = new List<Mesa>();
-			for (int i=0;i<=10;i++)
+			for (int i=0;i<=30;i++)
 			{
 				Mesa mesa = new Mesa();
 				mesa.Id = i;
@@ -61,8 +61,8 @@ namespace RestaurantHelper
 		{
 			if (sender is Button button)
 			{
-				Mesa mesaSelected = mesaService.GetMesaByID(Convert.ToInt32(button.Content));
-				if (mesaSelected.Id != 0) {
+				Mesa mesaSelected = mesaService.GetMesaByID(Convert.ToInt32(button.Content));//STRING -> INT
+				if (mesaSelected.Id == 0) {
 					MessageBox.Show($"¡Has hecho clic en la mesa {button.Content}!");
 					//ABRIR VENTANA PARA CREAR MODIFICAR O TERMINAR COMANDAS
 					VentanaComanda ventana = new VentanaComanda(mesaSelected);

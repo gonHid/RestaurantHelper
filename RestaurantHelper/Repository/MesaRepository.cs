@@ -16,7 +16,7 @@ namespace RestaurantHelper.Repository
 			{
 				try
 				{
-					contexto.Add(mesa);
+					contexto.Mesas.Add(mesa);
 					contexto.SaveChanges();
 					return true;
 				}
@@ -34,7 +34,7 @@ namespace RestaurantHelper.Repository
 			{
 				try
 				{
-					contexto.Remove(mesa);
+					contexto.Mesas.Remove(mesa);
 					contexto.SaveChanges();
 					return true;
 				}

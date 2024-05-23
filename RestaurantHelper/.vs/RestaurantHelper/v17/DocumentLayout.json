@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|d:\\proyectos startup\\restauranthelper\\restauranthelper\\restauranthelper\\ventanacomanda.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|solutionrelative:ventanacomanda.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|d:\\proyectos startup\\restauranthelper\\restauranthelper\\restauranthelper\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|d:\\proyectos startup\\restauranthelper\\restauranthelper\\restauranthelper\\ventanacomanda.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|solutionrelative:ventanacomanda.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|d:\\proyectos startup\\restauranthelper\\restauranthelper\\restauranthelper\\services\\mesaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|solutionrelative:services\\mesaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|d:\\proyectos startup\\restauranthelper\\restauranthelper\\restauranthelper\\repository\\mesarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|solutionrelative:repository\\mesarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|d:\\proyectos startup\\restauranthelper\\restauranthelper\\restauranthelper\\ventanacomanda.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{09B8AAF0-243B-4741-B2AB-2FDE297662F6}|RestaurantHelper.csproj|solutionrelative:ventanacomanda.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "VentanaComanda.xaml.cs",
-              "DocumentMoniker": "D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\VentanaComanda.xaml.cs",
-              "RelativeDocumentMoniker": "VentanaComanda.xaml.cs",
-              "ToolTip": "D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\VentanaComanda.xaml.cs",
-              "RelativeToolTip": "VentanaComanda.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Title": "MesaService.cs",
+              "DocumentMoniker": "D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\Services\\MesaService.cs",
+              "RelativeDocumentMoniker": "Services\\MesaService.cs",
+              "ToolTip": "D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\Services\\MesaService.cs",
+              "RelativeToolTip": "Services\\MesaService.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T00:54:22.187Z",
+              "WhenOpened": "2024-05-23T00:54:05.186Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "MesaRepository.cs",
+              "DocumentMoniker": "D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\Repository\\MesaRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\MesaRepository.cs",
+              "ToolTip": "D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\Repository\\MesaRepository.cs",
+              "RelativeToolTip": "Repository\\MesaRepository.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAIwGcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T00:47:14.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "VentanaComanda.xaml",
               "DocumentMoniker": "D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\VentanaComanda.xaml",
               "RelativeDocumentMoniker": "VentanaComanda.xaml",
@@ -55,20 +72,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAEAAAAAZAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAQwB4AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-18T00:19:14.818Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\Proyectos StartUp\\RestaurantHelper\\RestaurantHelper\\RestaurantHelper\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",

@@ -28,7 +28,7 @@ namespace RestaurantHelper.Services
 			List<Mesa> list = _repository.GetAll();
 			Mesa mesa = new Mesa();
 
-			if (list.Count == 0)
+			if (list.Count != 0)
 				mesa.Id = list.Max(m => m.Id) + 1;
 			else
 				mesa.Id = 1;
