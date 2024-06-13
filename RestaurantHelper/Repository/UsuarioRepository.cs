@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace RestaurantHelper.Repository
 {
@@ -58,7 +59,7 @@ namespace RestaurantHelper.Repository
                 }
                 catch (Exception)
                 {
-                   //DAR MENSAJE
+                    MessageBox.Show("Error al obtener los usuarios", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
                 return lista;
             }
@@ -75,7 +76,7 @@ namespace RestaurantHelper.Repository
                 }
                 catch (Exception)
                 {
-                   //DAR MENSAJE
+                    MessageBox.Show("Error al obtener datos del usuario", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
                 return encontrado != null ? encontrado : new Usuario { Id = 0 };
             }
@@ -104,7 +105,7 @@ namespace RestaurantHelper.Repository
                 }
                 catch (Exception)
                 {
-                    //DAR MENSAJE
+                    MessageBox.Show("Error al actualizar los datos del usuario", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
                 return false;
             }

@@ -1,4 +1,5 @@
 ﻿using RestaurantHelper.Models;
+using RestaurantHelper.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,12 +21,23 @@ namespace RestaurantHelper
 	/// </summary>
 	public partial class VentanaComanda : Window
 	{
-		private Mesa mesa;
+        private readonly ComandaService comandaService;
+        private readonly PedidoComandaService pedidoComandaService;
+        private Mesa mesa;
+		private Comanda comanda;
+		private List<PedidoComanda> pedidoComanda;
 		public VentanaComanda(Mesa mesa)
 		{
+			comandaService = new ComandaService();
+			pedidoComandaService = new PedidoComandaService();	
 			this.mesa = mesa;	
 			InitializeComponent();
-		}
+			//Obtener datos de la mesa + comanda
+			comanda = comandaService.GetComandaByID(mesa.ComandaActualId);// Probar sacando directo mesa.ComandaActual
+            pedidoComanda = pedidoComandaService.GetPedidoComandaByID(mesa.ComandaActualId);
+            //Recargar info en ventana
+
+        }
 
 
 	}

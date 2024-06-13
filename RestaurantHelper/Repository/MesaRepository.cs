@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace RestaurantHelper.Repository
 {
@@ -57,8 +58,8 @@ namespace RestaurantHelper.Repository
 				}
 				catch (Exception)
 				{
-					//DAR MENSAJE
-				}
+                    MessageBox.Show("Error al obtener las mesas", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
 				return lista;
 			}
 		}
@@ -74,7 +75,7 @@ namespace RestaurantHelper.Repository
 				}
 				catch (Exception)
 				{
-					//DAR MENSAJE
+                    MessageBox.Show("Error al buscar la mesa", "Error", MessageBoxButton.OK, MessageBoxImage.Error); 
 				}
 				return encontrado != null ? encontrado : new Mesa { Id = 0 };
 			}
@@ -101,8 +102,8 @@ namespace RestaurantHelper.Repository
 				}
 				catch (Exception)
 				{
-					//DAR MENSAJE
-				}
+                    MessageBox.Show("Error al actualizar la informacion para la mesa", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
 				return false;
 			}
 		}

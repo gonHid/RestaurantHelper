@@ -1,4 +1,5 @@
-﻿using RestaurantHelper.Models;
+﻿using RestaurantHelper.CustomDialog;
+using RestaurantHelper.Models;
 using RestaurantHelper.Repository;
 using RestaurantHelper.Services;
 using System.Text;
@@ -25,7 +26,7 @@ namespace RestaurantHelper
         {
             InitializeComponent();
 			mesaService = new MesaService();
-
+			//SE DEBE MODIFICAR -- ES SOLO PARA TESTEAR
 			List<Mesa> mesas = new List<Mesa>();
 			for (int i=0;i<=30;i++)
 			{
@@ -36,7 +37,7 @@ namespace RestaurantHelper
 			GenerarMesas(mesas);
         }
 
-		private void GenerarMesas(List<Mesa> mesas)
+		private void GenerarMesas(List<Mesa> mesas/*quitar*/)
 		{
 			//List<Mesa> mesas = mesaRepository.GetAll();
 			foreach (var mesa in mesas)
@@ -62,19 +63,51 @@ namespace RestaurantHelper
 			if (sender is Button button)
 			{
 				Mesa mesaSelected = mesaService.GetMesaByID(Convert.ToInt32(button.Content));//STRING -> INT
-				if (mesaSelected.Id == 0) {
-					MessageBox.Show($"¡Has hecho clic en la mesa {button.Content}!");
-					//ABRIR VENTANA PARA CREAR MODIFICAR O TERMINAR COMANDAS
-					VentanaComanda ventana = new VentanaComanda(mesaSelected);
-					ventana.Show();
-					//Recargar mesas 
-				}
-				else
+				if (mesaSelected.Id == 0/*CAMBIAR A !=0*/) {
+					if (mesaSelected.Estado != Models.Enums.EstadoMesa.Libre)
+					{
+                        CustomConfirmacion customDialog = new CustomConfirmacion();
+                        bool? respuesta = customDialog.ShowDialog();
+                        if (respuesta == true)
+                        {
+                            if (customDialog.Modificar == true)
+                            {
+                                // Acción para "Modificar"
+                                //SE DEBE ABRIR VENTANA PARA MODIFICAR LA COMANDA ACTUAL
+								//SE PUEDE OPTIMIZAR IGNORANDO SITUACION Y MANDANDO A EJECUCION NORMAL
+                                VentanaComanda ventana = new VentanaComanda(mesaSelected);
+                                ventana.Show();
+                                MessageBox.Show("Has seleccionado Modificar.", "Información", MessageBoxButton.OK, MessageBoxImage.Information);
+                            }
+                            else
+                            {
+                                // Acción para "Terminar"
+								//SE DEBE ABRIR VENTANA PARA CONFIRMAR EL TERMINO DE LA COMANDA Y/O TEMAS DE BOLETAS
+								//AÑADIR PROPINA
+                                MessageBox.Show("Has seleccionado Terminar.", "Información", MessageBoxButton.OK, MessageBoxImage.Information);
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("No has seleccionado ninguna acción.", "Información", MessageBoxButton.OK, MessageBoxImage.Information);
+                        }
+					}
+					else
+					{
+                        MessageBox.Show($"¡Has hecho clic en la mesa {button.Content}!");
+                        //ABRIR VENTANA PARA CREAR MODIFICAR O TERMINAR COMANDAS
+                        VentanaComanda ventana = new VentanaComanda(mesaSelected);
+                        ventana.Show();
+                        //Recargar mesas GenerarMesas();
+                    }
+                }
+                else
 				{
 					MessageBox.Show($"¡la mesa {button.Content} no existe!");
 				}
-			}
-		}
+                //Recargar mesas GenerarMesas();
+            }
+        }
 
 
 	}

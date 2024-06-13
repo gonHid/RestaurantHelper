@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\Proyectos StartUp\RestaurantHelper\RestaurantHelper\RestaurantHelper\App.xaml
-2813945108
+3-1524019252
 
-25547811442
-244-34190885
-MainWindow.xaml;VentanaComanda.xaml;
+30337502601
+2441981567416
+CustomDialog\CustomConfirmacion.xaml;MainWindow.xaml;VentanaComanda.xaml;
 
-True
+False
 

@@ -18,9 +18,9 @@ public partial class Comanda
 
     public string? Observaciones { get; set; }
 
-    public int ValorFinal { get; set; }
+    public int ValorFinal { get; set; } //VALOR SIN PROPINA
 
-    public int ValorTotal { get; set; }
+    public int ValorTotal { get; set; } //VALOR CON PROPINA
 
     public int Propina { get; set; }
 
